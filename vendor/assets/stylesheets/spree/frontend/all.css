@@ -7,3 +7,18 @@
  *= require_self
  *= require_tree .
 */
+
+
+body {
+  background-color: aliceblue;
+}
+  
+#footer {
+  display: flex;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
