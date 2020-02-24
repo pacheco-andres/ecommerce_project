@@ -19,6 +19,8 @@ body {
 
 #footer-right {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
 }

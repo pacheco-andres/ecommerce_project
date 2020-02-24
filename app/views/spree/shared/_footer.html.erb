@@ -1,8 +1,10 @@
 <footer id="footer" class="sixteen columns" data-hook>
   <div id="footer-left" class="columns alpha eight" data-hook>
     <p><%= t 'spree.powered_by' %> <%= link_to 'Solidus', 'http://solidus.io/' %></p>
+    <%= link_to('Quienes Somos', main_app.quienes_somos_path) %>
   </div>
   <div id="footer-right" class="columns omega eight" data-hook>
-  <%= link_to 'Términos y Condiciones', main_app.terminos_path %>
+    <%= link_to 'Términos y Condiciones', main_app.terminos_path %>
+    <%= link_to('Mision', main_app.mision_path) %>
   </div>
 </footer>
